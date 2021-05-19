@@ -1,0 +1,122 @@
+@import "common.css";
+:root {
+  --main: #8b8b8b;
+  --dark: #000000;
+  --white: #ffffff;
+  --gray: #292929;
+}
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--dark);
+  font-family: cursive;
+}
+header {
+  background-color: var(--gray);
+}
+.container {
+  max-width: 1800px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+header nav .navigation a {
+  color: yellowgreen;
+  text-decoration: none;
+  margin-right: 50px;
+  font-size: 30px;
+  transition: 0.2s ease-in;
+}
+header nav {
+  padding: 50px 0;
+}
+header nav .navigation a:hover {
+  color: orangered;
+}
+header nav .links {
+  padding-top: 40px;
+}
+.about-me {
+  background-color: var(--dark);
+}
+main .my-info {
+  margin-left: 200px;
+  color: yellowgreen;
+}
+main .my-info h5 {
+  font-size: 30px;
+}
+main .my-info h2 {
+  font-size: 60px;
+  transition: 0.2s ease;
+}
+main .my-info h2:hover {
+  color: orangered;
+}
+main .my-info h2 span {
+  color: orangered;
+  text-decoration: underline;
+  transition: 0.2s ease;
+}
+main .my-info h2 span:hover {
+  color: yellowgreen;
+}
+.worksection {
+  padding-top: 150px;
+}
+.worksection h5 {
+  color: yellowgreen;
+  font-size: 80px;
+  text-align: center;
+  padding-left: 200px;
+  transition: 0.2s ease;
+}
+.worksection h5:hover {
+  color: orangered;
+}
+#work {
+  padding-right: 180px;
+}
+.linkedin {
+  width: 80%;
+}
+.github {
+  width: 80%;
+}
+footer {
+  display: block;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 200px;
+  padding-right: 200px;
+  background-color: var(--gray);
+}
+footer a {
+  width: 10%;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer h1 {
+  text-align: center;
+  font-size: 80px;
+  padding-bottom: 50px;
+  color: yellowgreen;
+  transition: 0.2s ease;
+}
+footer h1:hover {
+  color: orangered;
+}
+@media screen and (max-width: 500px) {
+  nav,
+  footer,
+  section,
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
