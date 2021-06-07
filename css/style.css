@@ -18,7 +18,7 @@ header {
   background-color: var(--gray);
 }
 .container {
-  max-width: 1800px;
+  /* max-width: 1800px; */
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -66,19 +66,6 @@ main .my-info h2 span:hover {
 .worksection {
   padding-top: 150px;
 }
-.worksection h5 {
-  color: yellowgreen;
-  font-size: 80px;
-  text-align: center;
-  padding-left: 200px;
-  transition: 0.2s ease;
-}
-.worksection h5:hover {
-  color: orangered;
-}
-#work {
-  padding-right: 180px;
-}
 .linkedin {
   width: 80%;
 }
@@ -87,8 +74,8 @@ main .my-info h2 span:hover {
 }
 footer {
   display: block;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 200px;
   padding-right: 200px;
   background-color: var(--gray);
@@ -119,4 +106,16 @@ footer h1:hover {
     display: flex;
     flex-direction: column;
   }
+}
+.header1 {
+  color: orangered;
+  margin-top: 100px;
+  font-size: 60px;
+  text-decoration: underline;
+}
+.divHeader {
+  color: yellowgreen;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-decoration: underline;
 }
